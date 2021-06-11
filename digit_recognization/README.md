@@ -17,7 +17,7 @@ The MNIST handwritten digit classification problem is a standard dataset used in
 - Add feature to upload image into GUI prediction
 
 ## Image of GUI  
-![GUI](/gui.png)  
+![GUI](./gui.png)  
   
 ## References
 - [Deep Learning cơ bản - Nguyễn Thanh Tuấn](https://drive.google.com/file/d/1lNjzISABdoc7SRq8tg-xkCRRZRABPCKi/view)
