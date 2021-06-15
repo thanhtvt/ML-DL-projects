@@ -3,9 +3,9 @@
 The MNIST handwritten digit classification problem is a standard dataset used in computer vision and deep learning.  
 
 ## About files  
-- [digit_recog.py](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognization/digit_recog.py): Training and validating model to predict/recognise digits from mnist dataset.
-- [mnist.h5](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognization/mnist.h5): Saved model after training successfully.
-- [recog_gui.py](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognization/recog_gui.py): GUI for drawing digits which are recognised by model.  
+- [digit_recog.py](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognition/digit_recog.py): Training and validating model to predict/recognise digits from mnist dataset.
+- [mnist.h5](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognition/mnist.h5): Saved model after training successfully.
+- [recog_gui.py](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognition/recog_gui.py): GUI for drawing digits which are recognised by model.  
 
 ## Version
 ### Ver 1:   
