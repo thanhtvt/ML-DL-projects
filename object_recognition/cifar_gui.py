@@ -8,9 +8,6 @@ from PIL import ImageTk, Image
 import numpy as np
 
 
-model = load_model('cifar10.h5')
-
-
 def predict(path):
     # Resize image to 32x32
     img = load_img(path, target_size=(32, 32))
@@ -85,7 +82,7 @@ class App(tk.Tk):
         # Structure
         self.text.grid(row=0, column=0, pady=2)
         self.add_btn.grid(row=0, column=1, pady=2, padx=2)
-        self.canvas.grid(row=1, column=0, pady=2, sticky=W,)
+        self.canvas.grid(row=1, column=0, pady=2, sticky=W, )
         self.label_pred.grid(row=1, column=1, pady=2, padx=2)
         self.clear_btn.grid(row=2, column=0, pady=2)
         self.classify_btn.grid(row=2, column=1, pady=2, padx=2)
@@ -114,5 +111,7 @@ class App(tk.Tk):
         self.text.delete(0, END)
 
 
-app = App()
-mainloop()
+if __name__ == '__main__':
+    model = load_model('cifar10.h5')
+    app = App()
+    mainloop()

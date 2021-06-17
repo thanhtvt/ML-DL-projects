@@ -43,11 +43,11 @@ def define_model():
     model = Sequential()
     model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform',
                      padding='same', input_shape=(32, 32, 3)))
-    model.add(BatchNormalization())     # Add batch normalization to stabilize the learning
+    model.add(BatchNormalization())  # Add batch normalization to stabilize the learning
     model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
     model.add(BatchNormalization())
     model.add(MaxPooling2D((2, 2)))
-    model.add(Dropout(0.2))             # Add Dropout layer to regularize, reduce overfitting
+    model.add(Dropout(0.2))  # Add Dropout layer to regularize, reduce overfitting
     model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
     model.add(BatchNormalization())
     model.add(Conv2D(64, (3, 3), activation='relu', kernel_initializer='he_uniform', padding='same'))
@@ -144,5 +144,4 @@ if __name__ == '__main__':
     training_process_plotting(hist)
 
     # Evaluate model
-    evaluate_model(X_test, y_test, model)   # Loss: 0.39450207352638245
-                                            # Accuracy: 87.4%
+    evaluate_model(X_test, y_test, model)  # Loss: 0.3945, Accuracy: 87.4%
