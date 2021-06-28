@@ -2,6 +2,7 @@
 ## Overview  
 Darknet YOLOv4 is faster and more accurate than real-time neural networks Google TensorFlow EfficientDet and FaceBook Pytorch/Detectron RetinaNet/MaskRCNN on Microsoft COCO dataset.  
 Some resources:  
+- [Code](https://github.com/AlexeyAB/darknet)
 - [Paper about YOLOv4](https://arxiv.org/abs/2004.10934)  
 - [YOLO's author blog](https://alexeyab84.medium.com/yolov4-the-most-accurate-real-time-neural-network-on-ms-coco-dataset-73adfd3602fe)  
 ![Example](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/example.jpeg)
@@ -17,10 +18,10 @@ Some resources:
 
 ## Some results  
 ### Running pre-trained YOLOv4
-![Results](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/results.gif)  
+![Results](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/results/results.gif)  
 
 ### Train custom YOLOv4 model
-![Results](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/predictions.jpg)
+![Results](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/results/predictions.jpg)
 
 ## References  
 - [Huấn luyện YOLO darknet trên google colab](https://phamdinhkhanh.github.io/2020/03/10/DarknetGoogleColab.html#421-tool-bounding-box)  
