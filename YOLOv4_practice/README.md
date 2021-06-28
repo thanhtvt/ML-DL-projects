@@ -8,13 +8,16 @@ Some resources:
 ![Example](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/example.jpeg)
 
 ## About files  
-- [yolov4_custom_training.ipynb](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/yolov4_custom_training.ipynb): Train Custom YOLOv4 Model in Google Colab
-- [yolov4_pre-trained.ipynb](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/yolov4_pre-trained.ipynb): Running Pre-trained YOLOv4 on over 80 Classes in Google Colab  
-- [yolov4_training](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/yolov4_training): A directory that contains my essential files for training (upload this folder to Google Drive)
+- [yolov4_custom_training.ipynb](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/yolov4_custom_training.ipynb): Train Custom YOLOv4 Model in Google Colab.
+- [yolov4_pre-trained.ipynb](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/yolov4_pre-trained.ipynb): Running Pre-trained YOLOv4 on over 80 Classes in Google Colab.  
+- [yolov4-obj_final.weights](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/yolov4-obj_final.weights): Final weights trained after 8000 over `max_batches = 10000`.  
+- [yolov4_training](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/yolov4_training): A directory that contains my essential files for training (upload this folder to Google Drive).  
+- [dataset](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/dataset): A directory that contains my training and validating dataset
 
 ## Some notes
 - I use [OIDv4_Toolkit](https://github.com/theAIGuysCode/OIDv4_ToolKit) for gathering and labeling custom dataset. You guys can view tutorial on how to use that tool [here](https://www.youtube.com/watch?v=_4A9inxGqRM)
 - During training, my Colab Cloud crashed 2 times (T.T) so I was impatient for waiting for the results, which made the accuracy was not at my expectation.
+- I put my [final weights](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/yolov4-obj_final.weights) and my [dataset](https://github.com/thanhtvt/ML-DL-projects/blob/main/YOLOv4_practice/dataset), you guys can use that for your custom training and have some fun with it.
 
 ## Some results  
 ### Running pre-trained YOLOv4
