@@ -6,7 +6,7 @@ The MNIST handwritten digit classification problem is a standard dataset used in
 - [digit_recog.py](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognition/digit_recog.py): Training and validating model to predict/recognise digits from mnist dataset.
 - [mnist.h5](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognition/mnist.h5): Saved model after training successfully.
 - [recog_gui.py](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognition/recog_gui.py): GUI for drawing digits which are recognised by model (old one).  
-- [digit_recognition_Gradio.ipynb](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognition/digit_recognition_Gradio.ipynb): UI created by Gradio.
+- [digit_recognition_Gradio.ipynb](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognition/digit_recognition_Gradio.ipynb): UI created for classification by Gradio.
 
 ## Version
 ### Ver 1:   
@@ -15,15 +15,16 @@ The MNIST handwritten digit classification problem is a standard dataset used in
   
 ### Ver 2:
 - Update GUI using [Gradio](https://www.gradio.app/) (a great tools to generate an easy-to-use UI for ML model)  
+- Improve prediction accuracy when drawing on sketchboard
 
-#### Future updates:
-[x] Improve accuracy of GUI prediction (with [Gradio](https://www.gradio.app/))
-[ ] Add feature to upload image into GUI prediction  
+### Future updates:
+[x] Improve accuracy of GUI prediction (with [Gradio](https://www.gradio.app/))  
+[ ] Addfeature to upload image into GUI prediction  
 
 ## Image of GUI (old one)  
 ![GUI](./gui.png)  
   
-## Preview of Gradio UI
+## Preview of Gradio's UI
 ![Gradio UI](https://github.com/thanhtvt/ML-DL-projects/blob/main/digit_recognition/preview.gif)  
   
 ## References
