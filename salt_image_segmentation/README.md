@@ -2,6 +2,8 @@
 ## Overview  
 This project using [this challenge](https://www.kaggle.com/c/tgs-salt-identification-challenge)'s dataset. I approach this problem using [U-Net model](https://arxiv.org/abs/1505.04597) but with different sizes of the input image (the core of the model remains the same).  
 
+![Model](https://images2.programmersought.com/281/94/947552a81a65ac339f86e84454a212d1.png)
+
 ## About files  
 - [TGS_Salt.ipynb](https://github.com/thanhtvt/ML-DL-projects/blob/main/salt_image_segmentation/TGS_Salt.ipynb): Build, execute and evaluate model
 - [best_model.h5](https://github.com/thanhtvt/ML-DL-projects/blob/main/salt_image_segmentation/best_model.h5): Saved the best model (highest validation accuracy) after training successfully.  
