@@ -7,7 +7,7 @@ This project using [this challenge](https://www.kaggle.com/c/tgs-salt-identifica
 - [best_model.h5](https://github.com/thanhtvt/ML-DL-projects/blob/main/salt_image_segmentation/best_model.h5): Saved the best model (highest validation accuracy) after training successfully.  
 
 ## Some predictions  
-![prediction](https://github.com/thanhtvt/ML-DL-projects/blob/main/salt_image_segmentation/prediction.png)  
+![prediction](https://github.com/thanhtvt/ML-DL-projects/blob/main/salt_image_segmentation/prediction.jpg)  
   
 ## References
 - [Image Segmentation với U-Net](https://nttuan8.com/bai-12-image-segmentation-voi-u-net/)
