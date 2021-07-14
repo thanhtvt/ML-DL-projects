@@ -6,8 +6,8 @@ The model used in this repo:
 ![model](https://github.com/thanhtvt/ML-DL-projects/blob/main/image_captioning/model.png)  
   
 ## Some notes
-- This repo use Flickr8k dataset and some .txt files needed, all of those can be downloaded from [here](https://drive.google.com/file/d/1Jr9K1L-grIC5UQjff4UPN5A29aJL86cn/view?usp=sharing)  
-- This notebook has detail descriptions about what is going on. I also refer to some useful resources for our practice there.  
+- This repo use Flickr8k dataset and some necessary .txt files, all of those can be downloaded from [here](https://drive.google.com/file/d/1Jr9K1L-grIC5UQjff4UPN5A29aJL86cn/view?usp=sharing)  
+- This notebook has detail descriptions and explanation about what is going on. I also refer to some useful resources for our practice there.  
 - This notebook still has a lot of ways to improve. Some of which can be:
   * Doing more **hyper-parameter tuning**.
   * Using validation set to evaluate model more accurate, avoid **overfitting**.
