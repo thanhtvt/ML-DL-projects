@@ -1,17 +1,15 @@
-# TGS Salt Identification with U-Net model  
-## Overview  
-This project using [this challenge](https://www.kaggle.com/c/tgs-salt-identification-challenge)'s dataset. I approach this problem using [U-Net model](https://arxiv.org/abs/1505.04597) but with different sizes of the input image (the core of the model remains the same).  
+# TGS Salt Identification  
+    
+<a href="https://www.kaggle.com/jonnyjackk/segmentation-with-single-resnet-unet-lb-0-81"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>  
 
-![Model](https://images2.programmersought.com/281/94/947552a81a65ac339f86e84454a212d1.png)
-
-## About files  
-- [TGS_Salt.ipynb](https://github.com/thanhtvt/ML-DL-projects/blob/main/salt_image_segmentation/TGS_Salt.ipynb): Build, execute and evaluate model
-- [best_model.h5](https://github.com/thanhtvt/ML-DL-projects/blob/main/salt_image_segmentation/best_model.h5): Saved the best model (highest validation accuracy) after training successfully.  
-
-## Some predictions  
-![prediction](https://github.com/thanhtvt/ML-DL-projects/blob/main/salt_image_segmentation/prediction.jpg)  
+# Overview  
+**TGS Salt Identification Challenge** is a competition for salt identification in the TGS Salt Identification Challenge. The challenge is to predict the presence of salt in a given seismic images.  
   
-## References
-- [Image Segmentation với U-Net](https://nttuan8.com/bai-12-image-segmentation-voi-u-net/)
-- [Understanding Semantic Segmentation with UNET](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)  
-- [Implementation of deep learning framework - Unet, using Keras](https://github.com/zhixuhao/unet)
+**The dataset** is a set of images captured at various locations, which contains 4000 images in the training dataset and 18000 images in the test set. Each image is 101 x 101 pixels, each pixel is classified as either salt or sediment (not salt).
+  
+**Model used** is a U-Net model with ResNet backbone. Details about it can be found in the [kaggle notebook](https://www.kaggle.com/jonnyjackk/segmentation-with-single-resnet-unet-lb-0-81).  
+  
+# Result    
+[My approach](https://gusty-lentil-0c8.notion.site/Report-6a6958c13990489ab46036075168d03a) achieved the highest mean IoU score of 0.82 on the private leaderboard and 0.79 on the public leaderboard. I also added my best model's weight in each phase so you can continue to train from those or replicate my approach.  
+   
+![prediction](https://github.com/thanhtvt/ML-DL-projects/blob/main/salt_image_segmentation/images/prediction.jpg)  
